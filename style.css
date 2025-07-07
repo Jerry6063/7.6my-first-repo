@@ -1,0 +1,41 @@
+/* Basic styling for the page */
+body {                              
+  font-family: 'Roboto', sans-serif;  
+  background-color: #ffffff;          
+  color: #111;                        
+  margin: 0;                          
+
+  /* 新增：居中内容 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 新增：容器样式 */
+.container {
+  text-align: center;
+}
+
+/* Interactive button styling */
+button {                             
+  background-color: #111;             
+  color: white;                       
+  padding: 12px 24px;                 
+  cursor: pointer;                    
+  transition: background-color 0.3s;  
+  border: none;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Hover effect for buttons */
+button:hover {                       
+  background-color: #333;             
+}
+
+/* 新增：消息区域样式 */
+#messageDisplay {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
